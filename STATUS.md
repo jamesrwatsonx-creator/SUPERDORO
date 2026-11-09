@@ -11,8 +11,8 @@ Baseline: November 9, 2026.
 
 ## Complete design documentation update — November 9, 2026
 
-- Added five documentation files defining **80 planned screens** across nine domains; each screen describes composition, behavior and motion references.
-- Added **37 reusable animation primitives**, 12-screen account/onboarding motion plan and implementation/performance guidelines.
+- Added six documentation files (including exhaustive reference catalog) defining **80 planned screens** across nine domains; each screen describes composition, behavior and motion references.
+- Added **37 reusable animation primitives** plus **105 named supplied animation references**, 12-screen account/onboarding motion plan and implementation/performance guidelines.
 - Defined user-supplied **MP3 + unique customized motion GIF** pipeline, meditation media manifest, rights/QA criteria and independent focus/meditation metrics.
 - Added end-to-end flows for brain-dump review, note-to-research, deadline/calendar, Pomodoro-to-meditation, and daily planning.
 - Documented geometric S master asset requirement, premium light/dark glass-and-glow direction, inner-tick white timer and “Your focus harness” hybrid authentication hero.
