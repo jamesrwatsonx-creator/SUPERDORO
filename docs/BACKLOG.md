@@ -95,3 +95,16 @@ No public deployment is part of the repository preparation task.
 ## Complete scope tracking
 
 Full PDF/image extraction, page clipping, rich attachments, in-app browsing, voice refinements, reviewed Today briefs and bounded opt-in Trust Mode belong to the **complete first build** (Milestones 5–6), not a separately scoped future product. Multi-device conflict-free collaborative editing may require a separately verified depth, but the initial cross-account privacy and basic account recovery remain mandatory. Future meditation packs extend content through the existing player; no additional route is required for each MP3/GIF pair. Treat the 80-screen count as design baseline and log any adjustments.
+
+## Design production workstream — 43 detailed screens and Paper handoff
+
+- [ ] Confirm approved geometric S production asset is actually imported to repo and fonts licensed.
+- [ ] Produce the three visual anchors NOTE-02, WEB-02, FOCUS-02 using SCREEN-IMAGE-PROMPTS and separate mobile-design-orchestrator best practices.
+- [ ] Review and approve anchor contrast, spacing, safe areas, type hierarchy, glass/glow and light/dark tokens.
+- [ ] Produce individual ImageGen reference image for each of the other 40 detailed NOTE/CAL/WEB/FOCUS/INS screens; one clean portrait per screen; do not count documentation prompts as generated art.
+- [ ] In user-authorized connected local Paper Desktop MCP session, verify current Paper file via supported read-only API then create tokens and editable frames for each selected/approved design; log real frame refs. Skip/mark pending if MCP absent.
+- [ ] Annotate for every screen its scroll owner, pinned controls, offsets, Mxx entrance/loop/gesture transitions, interruption/cancel/undo states and Reduce Motion behavior from DETAILED-SCREEN-MOTION-UX.
+- [ ] Validate under 360dp and 430dp widths, enlarged type, keyboard, Android/iOS safe area and all overlays.
+- [ ] Convert approved editable designs to native implementation only after working app navigation/data contracts; capture side-by-side screenshot and device evidence.
+
+**Source rules:** external mobile-design-orchestrator is reusable method; Paper MCP is optional design editing bridge; SUPERDORO motion library is the sole motion semantics source. These additions do not imply a live MCP connection or alter the 80-screen count.

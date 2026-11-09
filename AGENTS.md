@@ -38,3 +38,10 @@ Run checks appropriate to the change. Add meaningful tests around persistence, r
 Use explicit evidence labels: planned, implemented/unverified, automated-check verified, device verified, blocked. Type checking does not establish device behavior. Mock AI does not establish real transcription/extraction. Do not mark complete without a result that supports the claim.
 
 Update STATUS.md and the relevant backlog checkbox with changed files, checks/results, remaining device checks, and the next task. Update decision records when a proposal becomes an implementation choice. Report blockers precisely; continue independent local work. Stop for missing required account configuration rather than inventing credentials.
+
+## External mobile layout and optional Paper design MCP
+
+- Read docs/COMPLETE-PRODUCT-OVERVIEW.md and docs/DETAILED-SCREEN-MOTION-UX.md before design/implementation; follow the five section docs SCREEN-MOTION-{NOTES,CALENDAR,WEB,FOCUS,INSIGHTS}.md (43 screen-specific contracts); keep 80 main IDs stable.
+- Use https://github.com/jamesrwatsonx-creator/mobile-design-orchestrator at pinned revision 4d88a488ed78ad7b1bec503e4180abccac338af5 as **separate** best-practice guidance, especially native spacing, thumb ergonomics and one-image-one-screen rules.
+- Use docs/MOBILE-DESIGN-PAPER-MCP-WORKFLOW.md for local Paper Desktop MCP setup, verifiable connection and editable design handoff. Do not assert MCP availability/connection without observing it. Do not commit guessed executable paths or fabricate Paper frame URLs.
+- Generate art from docs/SCREEN-IMAGE-PROMPTS.md and approved anchors, then use Paper for genuinely editable layers **only if connected**. Static PNG concept, editable design frame, app code and real device behavior have separate status gates.

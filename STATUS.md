@@ -51,3 +51,14 @@ For each implementation increment record:
 - Remaining limitations/blockers and next milestone.
 
 Keep this file current; historical planning in the brief must not override newer verified results.
+
+## Design workflow/specification update — November 9, 2026
+
+**Observed documentation work:**
+- Added extensive `docs/COMPLETE-PRODUCT-OVERVIEW.md` spanning purpose, 80 screens, UX/brand, motion, data, offline, permission, app navigation, recovery, provider evidence, design delivery and QA.
+- Located **separate** `jamesrwatsonx-creator/mobile-design-orchestrator`, pinned at `4d88a488ed78ad7b1bec503e4180abccac338af5`, and incorporated 8dp spacing, 16–24dp margin, practical 44–48dp targets, safe areas and one-screen-per-image procedure.
+- Verified **official Paper Desktop MCP docs**, described installer/connection preflight and editable frame/token handoff in `docs/MOBILE-DESIGN-PAPER-MCP-WORKFLOW.md`. **No Paper MCP installed, connected or used by this ChatGPT session**; no editable file created.
+- Wrote five section documents with **43 detailed** Notes/Calendar/Web/Focus/Insights screen motion+scroll interaction contracts, indexed by `docs/DETAILED-SCREEN-MOTION-UX.md`. NOTE-06 original audio timeline is retained; FOCUS-11 contains immersive meditation motion mode and FOCUS-03 minimized timer.
+- Added **43 unique mobile image-generation prompts** in `docs/SCREEN-IMAGE-PROMPTS.md`, with NOTE-02 / WEB-02 / FOCUS-02 as recommended visual anchors.
+
+**Still unverified/not delivered by these documents:** generated 43 screen images; a final imported angular S logo master; Paper frame design links; all actual native UI/screens/animations; functioning search/provider connections; any user-owned meditation MP3/GIF media; OS/device tests. Documentation does not mark implementation checklist items complete.

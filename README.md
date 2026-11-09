@@ -58,3 +58,9 @@ All are included in the complete first-product build. A runnable app is **not ye
 Capture → review suggestions → choose an action → focus or meditate → record the outcome.
 
 Keep all 80 defined screen destinations and every complete product capability in the first-release backlog. Implement them in working increments. A finished timer screen alone does not fulfill this product.
+
+## Full UX design system, separate mobile rules, and Paper MCP
+
+The full product design bible is [Complete Product & Design Overview](docs/COMPLETE-PRODUCT-OVERVIEW.md). The canonical **80 primary screen IDs** remain in SCREEN-INVENTORY. Five priority areas have **43 detailed scrolling/interaction specs** (8 Notes, 7 Calendar, 8 Web, 11 Focus, 9 Insights) under [Detailed Screen Motion & UX](docs/DETAILED-SCREEN-MOTION-UX.md). Their per-section specs include hierarchy, scroll y behavior, route transitions, Mxx animation triggers, error/offline states, reduced-motion, acceptance and image target. The [43 individual image prompt pack](docs/SCREEN-IMAGE-PROMPTS.md) is ready for one-image-one-screen visual generation; these are prompts, **not 43 generated images**.
+
+**Two external design resources are intentionally linked rather than silently copied:** [mobile-design-orchestrator](https://github.com/jamesrwatsonx-creator/mobile-design-orchestrator/tree/4d88a488ed78ad7b1bec503e4180abccac338af5) for 8dp rhythm, 16–24dp margins, 44–48dp touch targets, safe areas and image generation workflow; [Paper Desktop MCP](https://paper.design/docs/mcp) for optional actual editable design frames in a locally connected agent. Read [Mobile Design + Paper MCP Workflow](docs/MOBILE-DESIGN-PAPER-MCP-WORKFLOW.md). **Paper is not an active tool in this ChatGPT session**, and no Paper design file has been edited or verified. Design with approved anchor directions NOTE-02 / WEB-02 / FOCUS-02, and use the 37 motion primitives and 105 effect references for native choreography.
