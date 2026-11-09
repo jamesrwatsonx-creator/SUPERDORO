@@ -2,6 +2,8 @@
 
 **Status: design-only master reference (2026-11-09).** Covers all supplied reference-effect vocabulary plus recommended original motion patterns. No animation has yet been implemented or device-verified in the repo.
 
+For the complete term-by-term list of externally supplied effects (including reference-only or not-for-product patterns), see [REFERENCE-MOTION-LIBRARY.md](REFERENCE-MOTION-LIBRARY.md). This ensures no animation reference is lost while keeping the actual 37 primitive system disciplined.
+
 ## North star
 
 **Quiet surfaces, luminous interaction.** Motion should express intelligence, progress, state changes and continuity, not compete with focus. The angular geometric S (from the user's approved visual direction) is the repeated identity; preserve its geometry, do not independently regenerate the mark on every screen. Light mode uses off-white and restrained mint; dark mode uses near-black/charcoal with controlled green illumination. Glass surfaces need predictable opacity and real readable content.

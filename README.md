@@ -51,6 +51,7 @@ All are included in the complete first-product build. A runnable app is **not ye
 | [Meditation media](docs/MEDITATION-MEDIA.md) | MP3-to-custom-motion-GIF pipeline, content manifest and playback QA |
 | [User journeys](docs/USER-JOURNEYS.md) | End-to-end UX, safety and real-device acceptance tests |
 | [Asset register](docs/ASSET-REGISTER.md) | Logo/visual sources and unimported media status |
+| [Motion reference catalog](docs/REFERENCE-MOTION-LIBRARY.md) | Complete supplied animation vocabulary, including selectively deferred effects |
 
 ## Release goal
 

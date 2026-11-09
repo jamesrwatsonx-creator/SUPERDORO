@@ -1,6 +1,6 @@
 # Claude Code handoff
 
-Follow AGENTS.md and read all documents linked from README.md, notably the complete 80-screen inventory, motion master, meditation media pipeline, journeys and status. James authorized preparing this repository and intends to build the application in Claude Code. The initial contents are specifications and guidance, not an existing working app.
+Follow AGENTS.md and read all documents linked from README.md, notably the complete 80-screen inventory, motion master, exhaustive animation reference catalog, meditation media pipeline, journeys and status. James authorized preparing this repository and intends to build the application in Claude Code. The initial contents are specifications and guidance, not an existing working app.
 
 ## First implementation task
 
