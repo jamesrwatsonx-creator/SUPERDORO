@@ -1,0 +1,43 @@
+# Dependencies and tooling
+node_modules/
+.expo/
+.turbo/
+coverage/
+dist/
+web-build/
+*.tsbuildinfo
+*.log
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.p8
+*.mobileprovision
+*.jks
+*.keystore
+credentials.json
+
+# User recordings, transcripts, databases, local exports
+recordings/
+transcripts/
+private-data/
+local-data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+
+# Build outputs and machine-specific state
+android/.gradle/
+android/local.properties
+android/app/build/
+ios/Pods/
+ios/build/
+.DS_Store
+Thumbs.db
