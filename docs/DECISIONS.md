@@ -2,7 +2,7 @@
 
 ## Confirmed product priorities
 
-As of November 9, 2026: voice and typed capture; reviewable AI tasks/ideas/calendar suggestions; linked notes; focus timers; meditations. Preserve original input and context. Keep the full core experience in the release while implementing it in dependency order.
+As of November 9, 2026: complete first-product build includes all **80 planned screens** across nine functional systems, from account/onboarding through research, advanced Today/planning, tasks/projects, notes/ideas, calendar/reminders, focus/meditations and insights/settings. Preserve rich original context, user control and source links. Implement in dependency order; do not release a timer-only MVP as the complete SUPERDORO product.
 
 James created the public `jamesrwatsonx-creator/SUPERDORO` repository and authorized adding the necessary foundation there, with application implementation to continue in Claude Code.
 
@@ -33,3 +33,12 @@ These proposals are not completed integrations or final user approvals. Routine 
 ## Record future decisions
 
 For a material change record date, decision, reason, evidence, alternatives that mattered, and what would reverse it. Keep this short. Do not confuse the existence of a document, mock, or API adapter with a working user journey.
+
+## New design/media decisions — November 9, 2026
+
+- Baseline screen count is exactly **80**, documented in SCREEN-INVENTORY.md; sketches/states and individual meditation content do not count as extra routes.
+- Confirmed identity direction: user-favored angular geometric S, white rounded “Your focus harness” laptop photography paired with modern floating UI widgets, luminous green restrained glassmorphism, contemporary bold sans, light + dark themes and the white timer with interior ticks.
+- Motion creative direction: approximately 60–80 motion behaviors throughout 12 onboarding design concepts, using M01–M37 reusable primitives with reduced-motion/performance gates; not a license for continuous loops on every screen.
+- User intends to provide meditation MP3s and request **individually customized motion GIFs**; all such binaries remain pending. Never misrepresent provenance/rights or generated content as implemented.
+- **Trust Mode** means low-risk optional AI organization, not enabling/disabling privacy or security. Do not display made-up privacy strength percentages.
+- AI search/research, richer web clips, calendar provider sync, projects, insights and other detailed experiences are included in the **first complete build**; their late dependency milestones should not be described as a permanent scope exclusion.

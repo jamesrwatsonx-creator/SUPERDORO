@@ -2,11 +2,12 @@
 
 ## Start here
 
-Read STATUS.md, docs/BUILD-BRIEF.md, docs/BACKLOG.md, docs/DESIGN.md, and docs/DECISIONS.md before implementation. Inspect the actual checkout and preserve newer user work. The brief records product intent; STATUS.md records observed implementation. Resolve conflicts explicitly instead of treating historical plans as completed code.
+Read STATUS.md, docs/BUILD-BRIEF.md, docs/BACKLOG.md, docs/DESIGN.md, docs/DECISIONS.md, docs/SCREEN-INVENTORY.md, docs/MOTION-SYSTEM.md, docs/MEDITATION-MEDIA.md, docs/USER-JOURNEYS.md, and docs/ASSET-REGISTER.md before implementation. Inspect the actual checkout and preserve newer user work. The brief records product intent; STATUS.md records observed implementation. Resolve conflicts explicitly instead of treating historical plans as completed code.
 
 ## Product invariants
 
-- Keep voice capture, typed capture, reviewable AI suggestions, linked context, focus timers, and meditations in the release.
+- Keep **all 80 planned screen definitions** and nine systems in the first complete product build; do not cut the scope to timer-only or defer in-app research, projects, rich notes, calendar integrations, meditations, or insights as a separate future product.
+- Keep voice capture, typed capture, reviewable AI suggestions, linked context, focus timers, and meditations integrated.
 - Save locally before depending on uploads, transcription, or AI. Preserve original text and stopped recordings in durable storage.
 - Separate original text, editable transcript, source revision, AI suggestion, and accepted record.
 - Suggestions require individual review and editable fields. Rejection creates no task/event. Repeated acceptance must create only one record.
@@ -15,7 +16,10 @@ Read STATUS.md, docs/BUILD-BRIEF.md, docs/BACKLOG.md, docs/DESIGN.md, and docs/D
 - External calendar writes require explicit confirmation. Trust mode is not enabled or implemented by default.
 - Calculate timer state from persisted timestamps and pauses. Background execution is not a reliable clock. Completing a session does not automatically complete the task.
 - Keep meditation and focused-work session totals separate. Use original or properly licensed audio.
-- Use light and dark themes; preserve the confirmed design direction. Keep list views quiet and detail views contextual.
+- Use light and dark themes; preserve the angular geometric S logo, refined glass surfaces, mint/green glow and the white timer ring with inner ticks. Keep list views quiet and detail views contextual.
+- Apply MOTION-SYSTEM.md: motion must be purposeful, cancellable, reduced-motion compatible and device performance-tested; do not falsely show progress or fake AI/output.
+- Meditation assets are user-supplied licensed/owned MP3 plus customized motion GIF per content item, with fallback still/efficient media option. Assets are pending, not invented.
+- Trust Mode governs low-risk AI automation only, never whether security is enabled. Require explicit approval for consequential external actions.
 
 ## Implementation approach
 

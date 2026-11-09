@@ -1,6 +1,6 @@
 # Build backlog
 
-All implementation tasks begin unchecked. A checkbox means the described acceptance was actually verified; code written without runtime/device proof belongs in STATUS.md as implemented/unverified.
+**Complete first-product target: 80 screen definitions in nine domains.** Include all requested capabilities in the complete launch build. Individual implementation milestones remain incremental. All implementation tasks begin unchecked. A checkbox means the described acceptance was actually verified; code written without runtime/device proof belongs in STATUS.md as implemented/unverified.
 
 ## Milestone 0 — executable foundation
 
@@ -70,7 +70,18 @@ Gate: a person can reset, focus on a source-linked task, and retain an accurate 
 
 Gate: cancelled exports write nothing; references have sources; briefings do not invent work.
 
-## Milestone 6 — private beta
+## Milestone 6 — complete first-product feature depth and animated onboarding
+
+- [ ] Implement all 12 ONB screens from SCREEN-INVENTORY.md, including cinematic splash, white photographic laptop hero with floating microcards, sign-in and account creation, goals, guided first dump, AI organization, review, focus preferences, recovery preview, granular Trust Mode and personal Today reveal.
+- [ ] Complete remaining CAP/DAY/TASK/NOTE/CAL/WEB/FOCUS/INS inventory destinations with contextual action sheets, rich attachments, projects, calendar connections/sync conflicts, web comparisons/source previews, optional opt-in price/news watches, insights, export/restore and full privacy/notification settings.
+- [ ] Build the M01–M37 motion library where semantically relevant, with shared transitions, source-to-structure animations, precision inner-tick timer, white/dark theme and reduced-motion variants. Validate thermal/frame budget and fast-scroll content visibility.
+- [ ] Integrate actual approved angular S/logo master, branded photo/keyframes and all approved meditation MP3 + custom-motion-GIF pairs once supplied; document licenses, duration/checksum and device playback tests.
+- [ ] Enforce Trust Mode as bounded AI organizational automation, independent of security controls and never permitting external booking/purchase/calendar writes without confirmation.
+- [ ] Verify feature coverage against the 80 screen IDs; report any blocked or merged UX routes explicitly rather than treating mockups as implemented.
+
+**Gate:** the complete experience and inventory are accounted for in functioning code or transparently tracked with concrete blockers.
+
+## Milestone 7 — private beta
 
 - [ ] Implement/test auth, same-owner relationships, private audio access, and local account isolation.
 - [ ] Verify two-user database/storage access, export/deletion, retry safety, and basic account restore.
@@ -81,6 +92,6 @@ Gate: cancelled exports write nothing; references have sources; briefings do not
 
 No public deployment is part of the repository preparation task.
 
-## Tracked follow-on depth
+## Complete scope tracking
 
-Full PDF/image extraction, page clips, rich attachments, in-app browser, richer voice refinements, automatic daily delivery, bounded opt-in Trust mode, and multi-device editing remain planned extensions. Preserve the vision; do not silently call these complete or erase them from planning.
+Full PDF/image extraction, page clipping, rich attachments, in-app browsing, voice refinements, reviewed Today briefs and bounded opt-in Trust Mode belong to the **complete first build** (Milestones 5–6), not a separately scoped future product. Multi-device conflict-free collaborative editing may require a separately verified depth, but the initial cross-account privacy and basic account recovery remain mandatory. Future meditation packs extend content through the existing player; no additional route is required for each MP3/GIF pair. Treat the 80-screen count as design baseline and log any adjustments.

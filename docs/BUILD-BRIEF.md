@@ -1,4 +1,4 @@
-# SUPERDORO — first-release build brief
+# SUPERDORO — complete first-build brief
 
 Prepared for James Watson • November 9, 2026
 
@@ -45,20 +45,15 @@ Completed in this session: this scope, behavior specification, data outline, acc
 | Meditation | Short guided sessions and silent breathing; optional before-focus or break use | Start with a small original or properly licensed collection |
 | First-release supporting features | Share a URL/text into capture; explicit web research attached to a note; on-demand Today briefing | Add after the core loop passes; bounded versions only |
 
-Previously discussed rich attachments, page clips, PDF/image extraction, voice refinements, browser preview, and optional Trust mode remain tracked requirements. Basic URL references and manual refinement are in the first release. Full document ingestion, a full in-app browser, automatic morning delivery, and autonomous Trust mode are proposed follow-on depth, not completed features. Preserve their extension points without delaying the working core. This sequencing recommendation is not a claim that James approved a reduced long-term vision.
+**Updated scope November 9, 2026:** the first **complete** product build includes rich attachments, PDF/image snippets, web page clipping, in-app research/browser preview, on-demand watched results, source-linked comparisons, rich voice refinements, daily briefings, projects, insights and permission-bounded optional Trust Mode. These are explicitly scheduled in BACKLOG.md after core foundations, not removed or separately launched. No capability is implemented merely because it is documented.
 
-## 3. Navigation and screens
+## 3. Navigation and screens — 80 definition baseline
 
-Use four proposed tabs with a persistent Capture action:
+Exactly **80 planned screen destinations/major sheets** across ONB (12), CAP (8), DAY (7), TASK (10), NOTE (8), CAL (7), WEB (8), FOCUS (11), and INS (9). The canonical IDs, visual descriptions, interactions and animation references are in [SCREEN-INVENTORY.md](SCREEN-INVENTORY.md). These do not count light/dark themes, many media/content variants, loading/empty/error/permissions or individual meditation GIFs as extra primary screens.
 
-- **Today:** chosen next task, agenda, pending-review count, resume focus, on-demand briefing.
-- **Library:** captures, notes, ideas, search and simple filters.
-- **Focus:** linked task/note, Pomodoro/free-flow switch, white ring with inner ticks, session history.
-- **Reset:** guided meditations, breathing, recent sessions.
+Proposed navigation: Today / Library / Focus / Reset plus persistent Capture, with Tasks/Projects, Ideas, Calendar, Research, Insights and Settings nested where contextually useful. The first 12 ONB compositions are detailed in MOTION-SYSTEM.md and are skippable during real onboarding. The exact geometric S logo and cinematic hybrid white laptop “Your focus harness” sign-in design are the target; final binary/vector assets are not in GitHub yet.
 
-Additional routes: onboarding/sign-in; capture recorder/editor; AI review; note detail; task detail; event review; meditation player; settings/privacy. Detailed onboarding can be designed fully while allowing users to skip optional questions and reach capture quickly.
-
-Honor both light and dark modes from the component foundation. Glow emphasizes active states; long-form text stays high contrast. Preserve the selected logo direction, but request or locate the exact source asset before treating a recreated mark as final.
+Reference docs: [DESIGN.md](DESIGN.md), [MOTION-SYSTEM.md](MOTION-SYSTEM.md), [MEDITATION-MEDIA.md](MEDITATION-MEDIA.md), [USER-JOURNEYS.md](USER-JOURNEYS.md) and [ASSET-REGISTER.md](ASSET-REGISTER.md). The user will later provide meditation MP3s and approve customized GIF motion scenes per individual meditation, while the runtime player remains shared.
 
 ## 4. Required interaction contracts
 
@@ -131,7 +126,7 @@ Official references:
 
 Ideas are notes with an idea type, not a second copy of the same text. Every cross-record reference must enforce same-owner access. Cloud audio stays private; use short-lived authenticated access. On logout protect local account data. User-visible deletion/export and server-side credential handling belong in the first-release completion criteria.
 
-## 7. Dependency-ordered build backlog
+## 7. Dependency-ordered build backlog (see updated BACKLOG.md for milestones 0–7 and all 80 screens)
 
 All application implementation rows below start **not verified**. Repository location is resolved; application scaffold remains pending. Promote to implemented only with evidence. STATUS.md is authoritative for subsequent implementation progress.
 

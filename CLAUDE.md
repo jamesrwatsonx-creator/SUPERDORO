@@ -1,6 +1,6 @@
 # Claude Code handoff
 
-Follow AGENTS.md and read the documents linked from README.md. James authorized preparing this repository and intends to build the application in Claude Code. The initial contents are specifications and guidance, not an existing working app.
+Follow AGENTS.md and read all documents linked from README.md, notably the complete 80-screen inventory, motion master, meditation media pipeline, journeys and status. James authorized preparing this repository and intends to build the application in Claude Code. The initial contents are specifications and guidance, not an existing working app.
 
 ## First implementation task
 
@@ -15,10 +15,14 @@ Follow AGENTS.md and read the documents linked from README.md. James authorized 
 
 ## Preserve the complete product
 
-The first implementation slice is capture, but the release also includes editable AI Tasks/Ideas/Calendar review, linked notes/references, Pomodoro/free-flow timers, and meditation. Keep extension points simple. Do not replace the product with a timer demo, a generic chatbot, or an autonomous assistant.
+The initial full product build contains **80 planned screen destinations** in nine systems (12 ONB, 8 CAP, 7 DAY, 10 TASK, 8 NOTE, 7 CAL, 8 WEB, 11 FOCUS, 9 INS). The first implementation slice is capture, but the release also includes editable AI Tasks/Ideas/Calendar review, linked notes/references, projects, rich web research, calendar, Today planning, Pomodoro/free-flow timers, meditation MP3 + custom motion GIFs, insights and privacy. Keep extension points simple. Do not replace the product with a timer demo, a generic chatbot, or an autonomous assistant.
 
 ## Immediate success criterion
 
 A user can type a note, record and replay a voice capture, close/reopen the application, and recover both. No transcription, Supabase account, or external AI key is needed to prove this first slice.
 
 After that evidence is recorded, proceed to real transcription and reviewable suggestions following docs/BACKLOG.md; request only configuration that is actually necessary at that point.
+
+## Visual and motion implementation protocol
+
+Before building account/onboarding or other screens, read docs/SCREEN-INVENTORY.md (IDs/composition), docs/DESIGN.md (tokens/layout), docs/MOTION-SYSTEM.md (M01–M37), docs/ASSET-REGISTER.md (approved vs missing assets) and docs/MEDITATION-MEDIA.md (audio/GIF contract). User wants cinematic but interruptible animations; preserve a quiet active-focus mode. Treat generated screenshots as design references, not proof of functionality. Use exact approved geometric S asset only after actual import; currently no master image is committed. Build a reusable motion and component system with reduced-motion fallback and real Android performance testing. Meditation tracks and GIFs are pending user supply. Do not invent them, claim them present or mistake separate media content for extra nav screens.
